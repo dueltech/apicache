@@ -1,6 +1,6 @@
 {
   "name": "@dueltech/apicache",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "scripts": {
     "lint": "eslint --fix --cache .",
     "test": "nyc mocha $(find test -name '*.test.js') --recursive",
@@ -31,5 +31,17 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged && npm run test"
     }
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dueltech/apicache.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dueltech/apicache/issues"
+  },
+  "homepage": "https://github.com/dueltech/apicache#readme"
 }
